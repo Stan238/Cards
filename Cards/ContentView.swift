@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var messageCard: String = " Text or / and  😜"
     var body: some View {
         VStack {
 //            Image(systemName: "lanyardcard")
@@ -20,9 +21,11 @@ struct ContentView: View {
 //                .background(.teal)
 //            Spacer()
             VStack{
+                Text(messageCard)
 
             }
             .frame(width: 250, height: 450, alignment: .center)
+
             .padding()
             .background(Color(hue: 1.0, saturation: 0.027, brightness: 0.958))
             .clipShape(RoundedRectangle(cornerRadius: 40), style: FillStyle()
