@@ -28,7 +28,7 @@ struct ContentView: View {
             .clipShape(RoundedRectangle(cornerRadius: 40), style: FillStyle()
                 
                 )
-            .shadow(color: .gray,    radius: 30)
+            .shadow(color: .gray,    radius: 40)
             .padding()
 //            .border(Color.black)
 
